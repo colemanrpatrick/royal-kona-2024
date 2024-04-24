@@ -1,0 +1,449 @@
+#home-hero{
+  width: 95%;
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 5.9em;
+  background: black;
+  background-image: url("../images/royal_lahaina_luau_header.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  box-shadow: 0em 0em 2em rgba(0,0,0,0.75);
+height: 35em;
+}
+#home-hero header {
+  color: white;
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+  padding: 6em 0em 6em 0em;
+  /*! background: rgb(2,0,36); */
+  /*! background: linear-gradient(90deg, rgb(26, 0, 36) 0%, rgba(36, 0, 0, 0) 100%); */
+  position: absolute;
+  left: 0em;
+  top: 3em;
+  z-index: 5;
+}
+#home-hero h1 {
+  text-transform: capitalize;
+  font-weight: normal;
+  color: white;
+  margin: 0em auto 0em auto;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: bold;
+ text-shadow: 0em 0em 1em black;
+  max-width: 8em;
+  line-height: 0.9em;
+}
+#home-hero h1 span{
+  font-size: 0.6em;
+  line-height: 1em;
+  display: block;
+}
+#home-hero h2 {
+  font-family: "Montserrat" ,Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 14em;
+  line-height: 1em;
+  margin: 2em auto 1em auto;
+  font-weight: normal;
+  text-align: justify;
+  text-shadow: 0em 0em 1em black;
+}
+#svg1 {
+  transform: scale(1.3);
+}
+#home-hero a {
+  color: whitesmoke;
+  border: 0.2em solid whitesmoke;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5em;
+  display: inline-block;
+  font-size: 1.33em;
+  background: #E91E63;
+  box-shadow: 0em 0em 1em #00000038;
+  border-radius: 1em;
+}
+/* #home-hero a:hover{
+  color: #9d4a00;
+  background: #ffc700;
+  border: 0.2em solid #9d4a00;
+} */
+#tapas-border {
+	position: absolute;
+	width: 100.25%;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -4em;
+	z-index: 3;
+}
+#banner-img {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  opacity: 0.8;
+}
+@media(max-width: 1260px){
+  #banner-img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media(max-width:600px){
+   #banner-img {
+    height: 100%;
+    width: auto;
+    left: auto;
+     transform: none;
+     right:0;
+  }
+}
+
+
+@media(max-width: 900px){
+  #home-hero{
+    height: 30em;
+  }
+  #home-hero header{
+    font-size: 0.8em;
+  }
+  #svg1 {
+    transform: scale(1);
+  }
+}
+ @media(max-width:650px){
+  #home-hero{
+    width: 100%;
+    height: 22em;
+    background: url("../images/royal_lahaina_luau_header_mobile.jpg");
+    background-position: 33% 33%;
+  }
+  #home-hero header{
+    width: 100%;
+  }
+  #tapas-border{
+    bottom: -2em;
+    z-index: 3;
+  }
+  #home-hero header {
+    padding: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3em;
+    bottom: 1em;
+    top: auto;
+  }
+  #home-hero header h1{
+    font-size: 2em;
+    margin: 0 auto !important;
+    max-width: 20em;
+  }
+  #home-hero header h2{
+    font-size: 1.8em;
+    margin: 1em auto;
+    text-shadow: 0em 0em 1em black;
+  }
+  #home-hero a{
+    font-size:1.5em;
+  }
+} 
+/* @media(max-width: 600px){
+  #home-hero{
+    height: auto;
+    background-size:100%;
+    background-position: 0% -15%;
+    padding-top: 20em;
+  }
+
+  #home-hero header{
+    padding: 4em 0em 2em 0em;
+    width: 100%;
+    background-color: #242240;
+    bottom: 0;
+    border-radius: 0;
+    z-index: 1;
+    position: relative;
+  }
+} */
+#mini-gallery{
+  background: linear-gradient(180deg, #672500 0%, #9C3600 59.56%, #FF4C00 184.44%);
+  display: table;
+  width: 95%;
+  max-width: 1400px;
+  margin: 0 auto;
+  box-shadow: 0em 0em 2em rgba(0,0,0,0.75);
+}
+#mini-gallery a{
+  width: 33.3%;
+  display: table-cell;
+  overflow: hidden;
+  position: relative;
+  height: 20em;
+}
+#mini-gallery a::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  background-size: 100% 100%;
+}
+#mini-gallery #gallery-1::after{
+  background-image: url("../images/mini-gallery-frame-full.png");
+}
+#mini-gallery #gallery-2::after,
+#mini-gallery #gallery-3::after{
+  background-image: url("../images/mini-gallery-frame.png");
+}
+#mini-gallery a img{
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+@media(max-width:850px){
+  #mini-gallery a{
+   height: 18em;
+  }
+   #mini-gallery a img{
+    width: auto;
+    height: 100%;
+  }
+}
+@media(max-width:650px){
+    #mini-gallery{
+    width: 100%;
+  }
+  #mini-gallery a{
+   height: 12em;
+  }
+}
+.reading-content {
+  width: 95%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: table;
+  background-image: url("../images/tapascenter-warm.png");
+  background-size: 100%;
+  background-repeat: repeat-y;
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+.reading-content.reading-content-alt {
+	padding-bottom: 4em;
+	padding-top: 0;
+}
+.reading h2 {
+  color: #333;
+}
+.reading {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  text-align: left;
+}
+.reading {
+  text-align: center;
+}
+
+.reading h3{
+  color: #333;
+  font-size: 1.5em;
+}
+.reading article {
+  background: #ffdcb7;
+  padding: 2em;
+  width: 85%;
+  box-shadow: 0em 0.5em 0.5em -0.25em rgba(0,0,0,0.25);
+  margin: 0 auto;
+  text-align: center;
+}
+.reading li {
+	text-align: left;
+	list-style-type: disc;
+	list-style-position: outside;
+	max-width: 25em;
+	margin: 0.5em auto;
+	font-weight: bold;
+	color: #20304d;
+}
+.reading article p {
+  line-height: 1.75em;
+  font-size: 1em;
+  margin-bottom: 1em;
+  display: inline-block;
+  margin: 1em;
+}
+.reading a {
+color: whitesmoke;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5em;
+  display: inline-block;
+  font-size: 1.33em;
+  background: #20304D;
+  box-shadow: 0em 0em 0em tan;
+  border-radius: 1em;
+}
+.reading a.reading-img {
+	width: 90%;
+	border: 1em solid #ae3d00;
+	box-shadow: 0em 0.5em 0.5em -0.25em rgba(0,0,0,0.25);
+  display: inline-block;
+  position: relative;
+  height: 30em;
+	background: #ae3d00;
+	border-radius: 0em;
+	font-size: 1em;
+	overflow: hidden;
+}
+.reading a.reading-img img{
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+@media(max-width:1200px){
+  .reading a.reading-img img{
+    height: 100%;
+    width: auto;
+  }
+}
+@media(max-width:850px){
+  .reading {
+    display: block;
+    width: 100%;
+  }
+  .reading {
+    text-align: center;
+  }
+  #video h3 {
+    width: 90%;
+  }
+  .reading article {
+    margin: 1em auto;
+    max-width: 30em;
+    width: 90%;
+  } 
+ .reading a.reading-img{
+    max-width: 30em;
+   height: 15em;
+  }
+  .reading a.reading-img img{
+    width: 100%;
+    height: auto;
+  }
+  .reading-content.reading-content-alt{
+    padding-top: 4em;
+    padding-bottom: 2em;
+  }
+  .reading-content.reading-content-alt,
+  .reading-content.reading-content-alt .reading{
+    transform: scaleY(-1);
+  }
+}
+
+@media(max-width:650px){
+   .reading-content{
+    width: 100%;
+  }
+}
+
+#reservation-banner{
+  background-image: url("../images/luau-photos/royal-kona-luau-banner.png");
+  background-size: cover;
+  background-position: 0% 33%;
+  height: 15em;
+  width: 95%;
+  max-width: 1400px;
+  margin: 0 auto;
+  box-shadow: inset 0em 0em 2em, 0em 1em 2em rgba(0,0,0,0.75);
+}
+@media(max-width:650px){
+   #reservation-banner{
+    width: 100%;
+  }
+}
+#additional{
+  width: 95%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: table;
+  background-repeat: repeat-y;
+  background-size: 100%;
+  box-shadow: 0em 0em 2em rgba(0,0,0,0.25);
+}
+#additional-info{
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  text-align: left;
+  background: #ffdcb7;
+}
+#additional-info article{
+  background: #ffdcb7;
+  width: 95%;
+  margin: 0 auto;
+  padding: 2em 3em;
+}
+#additional-info p {
+  font-size: 1.15em;
+  margin: 1.5em 0em;
+}
+#additional-info li p{
+  line-height: 1em;
+  margin: 1em auto;
+} 
+#additional-info ul{
+  width: 25em;
+  margin-left: 2em;
+}
+#additional-info ul li{
+  list-style-type: circle;
+  list-style-position: outside;
+}
+#additional-info a{
+  color: #6c131b;
+  font-weight: bold;
+}
+#additional-info-img {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  background-image: url("../images/luau-photos/royal-kona-luau-voyages-of-the-pacific.png");
+  background-size: cover;
+  background-position: center;
+  background-color: beige;
+}
+#additional-info b {
+  color: #692600;
+}
+@media (max-width: 850px) {
+  #additional{
+    display: block;
+    transform: scaleY(-1);
+  }
+  #additional-info, #additional-info-img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    transform: scaleY(-1);
+  }
+  #additional-info-img{
+    height: 20em;
+  }
+}
+@media(max-width:650px){
+   #additional{
+    width: 100%;
+  }
+}
