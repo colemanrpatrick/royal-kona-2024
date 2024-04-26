@@ -151,7 +151,7 @@ input{
 	transform: scaleX(-1) rotate(-25deg);
 }
 #main-nav{
-    background: linear-gradient(180deg, #672500 0%, #9C3600 59.56%, #FF4C00 184.44%);
+    background: linear-gradient(180deg, #f6ae2d 0%, goldenrod 59.56%, gold 184.44%);
     box-shadow: 0em 1em 2em #0000007a;
     border-bottom: 0.2em solid goldenrod;
 }
@@ -165,7 +165,7 @@ input{
 }
 #main-nav ul li a,
 #nested-nav{
-	color: wheat;
+	color: #073b4c;
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
@@ -195,7 +195,7 @@ input{
   font-size: 2em;
   line-height: 1em;
 	font-family: "cinzel";
-	color: white !important;
+	color: #073b4c !important;
   width: 100%;
   padding: 0em 0em 0em 0em;
 }
@@ -212,10 +212,10 @@ input{
   display: block;
   line-height: 1.5em;
 	font-family: "cinzel" !important;
-	color: white;
+	color: #;
 }
 #logo hr {
-  background: white;
+  background: #073b4c;
   border: 0;
   height: 2px;
   max-width: 8em;
@@ -436,7 +436,7 @@ input{
 /*======================================================*/
 footer {
   padding: 2em;
-  background: #20304d;
+  background: #187790;
 }
 #footer-logo-img {
     /**/
@@ -1580,7 +1580,7 @@ margin-bottom: 1.5em;
     height: 100%;
   }
 .booking-img-container {
-  background: #4c536d;
+  background: #13657b;
   border: 0.25em solid white;
   height: 6em;
   width: 6em;
