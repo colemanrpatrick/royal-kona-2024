@@ -62,7 +62,7 @@ height: 35em;
   padding: 0.5em;
   display: inline-block;
   font-size: 1.33em;
-  background: #E91E63;
+  background: #20304D;
   box-shadow: 0em 0em 1em #00000038;
   border-radius: 1em;
 }
@@ -138,9 +138,10 @@ height: 35em;
     top: auto;
   }
   #home-hero header h1{
-    font-size: 2em;
+    font-size: 2.25em;
     margin: 0 auto !important;
     max-width: 20em;
+    color: #ffc300;
   }
   #home-hero header h2{
     font-size: 1.8em;
