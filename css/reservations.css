@@ -1,3 +1,568 @@
+/*========== reservations page styling ===*/
+
+
+.reservation-hero {
+  margin-top: 6em;
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1400px;
+  box-shadow: 0em 0em 2em rgba(0,0,0,0.5);
+  margin-top: 6em;
+  position: relative;
+  height: 25em;
+  overflow: hidden;
+  background-color: #01133b;
+}
+.reservation-hero header{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  bottom: 2em;
+  left: 0;
+  text-align: center;
+}
+.reservation-hero img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  z-index: 1;
+  transform: translate(-50%,-50%);
+}
+@media(max-width:955px){
+  .reservation-hero img{
+    height: 100%;
+    width: auto;
+  }
+}
+.reservation-hero h1 {
+  color: white;
+  font-weight: lighter;
+  text-shadow: 0em 0em 1em black;
+  margin: 0.5em 0em;
+  font-size: 3em;
+  line-height: 0.5;
+}
+.reservation-hero h2 {
+  color: white;
+  line-height: 2em;
+}
+.reservation-hero hr {
+  border: 1px solid #ffffff59;
+}
+.reservation-hero h3 {
+  color: white;
+  text-shadow: 0em 0em 1em black;
+  font-size: 1.5em;
+  font-weight: lighter;
+  line-height: 2em;
+  margin-left: 1em;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}
+.reservation-hero hr {
+  max-width: 20em;
+  margin: 0 auto;
+}
+#browse-luaus {
+  color: #073b4c;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5em;
+  display: inline-block;
+  font-size: 1.33em;
+  background: #E4B218;
+  box-shadow: 0em 0em 1em #02193b;
+  border-radius: 1em;
+  border: none;
+  border: 0.15em solid;
+}
+#book-now-btn {
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  color: #692500;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1em 1.25em;
+  display: inline-block;
+  font-size: 1.25em;
+  background: #ffbf00;
+  border: 0;
+  box-shadow: 0em 0.25em 0.5em rgba(0,0,0,0.5);
+  z-index: 998;
+  cursor: pointer;
+}
+#book-now-btn{
+	display: none;
+}
+@media(max-width:850px){
+  #book-now-btn {
+    bottom: 0em;
+    left: 0em;
+    width: 100%;
+    box-shadow: none;
+    background-color: #692500;
+    color: #ffbf00;
+    padding: 1em;
+    font-size: 1.15em;
+		display: block;
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .reservation-hero {
+    padding: 15em 5em 5em 5em;
+    text-align: top right;
+    margin-top: 4em;
+  }
+}
+@media (max-width: 500px) {
+  .reservation-hero {
+    padding: 7em 2em;
+  }
+  .reservation-hero h1,
+  .reservation-hero h3{
+    text-align: center;
+  } 
+  .reservation-hero hr{
+    margin: 0 auto;
+  }
+}
+
+
+#luau-gallery{
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  padding: 2em 0em;
+}
+.gallery-image {
+  width: 22%;
+  height: 10em;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0em 0.25em 0.5em rgba(0,0,0,0.5);
+  margin: 0.25em;
+  border: 0.2em solid wheat;
+}
+@media(max-width: 750px){
+    .gallery-image{
+        width: 33%;
+    }
+}
+@media(max-width: 500px){
+    .gallery-image{
+        width: 50%;
+    }
+}
+.gallery-image img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+
+#luau-info {
+  background: #ffdcb7;
+  padding: 3em;
+  width: 85%;
+  box-shadow: 0em 0.5em 0.5em -0.25em rgba(0,0,0,0.25);
+  margin: 0 auto;
+  text-align: left;
+}
+#luau-info p {
+  text-align: left;
+}
+.luau-content{
+  background-image: url("../images/tapascenter-warm.png");
+  width: 95%;
+  background-size: 100%;
+  background-position: center;
+  margin: 0 auto;
+  box-shadow: 0em 1em 2em rgba(0,0,0,0.75);
+  max-width: 1400px;
+}
+@media(max-width:650px){
+  .luau-content{
+    width: 100%;
+  }
+}
+
+#about-luau h3 {
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  font-size: 2em;
+  background: #6b2600;
+  color: goldenrod;
+}
+#about-luau section {
+  /*! padding: 2em 0em; */
+}
+.luau-content article {
+  background: #ffdcb7;
+  padding: 3em;
+  width: 85%;
+  box-shadow: 0em 0.5em 0.5em -0.25em rgba(0,0,0,0.25);
+  margin: 0 auto 0em auto;
+  margin-bottom: 0em;
+}
+
+
+#about-luau h3 {
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  font-size: 2em;
+  background: #073b4c;
+  color: #e6b516;
+}
+@media(max-width:850px){
+  #about-luau h3{
+    font-size: 1.75em;
+    line-height: 1em;
+  }
+}
+#about-luau section {
+  padding-top: 2em;
+  display: block;
+}
+.luau-content article {
+  background: #ffdcb7;
+  padding: 3em;
+  width: 85%;
+  box-shadow: 0em 0.5em 0.5em -0.25em rgba(0,0,0,0.25);
+  margin: 0 auto 0em auto;
+}
+.luau-content p {
+  line-height: 1.5em;
+}
+#about-details {
+  padding-bottom: 4em;
+}
+
+.luau-content section ul{
+  background: #ffdcb7;
+  padding: 3em;
+  width: 85%;
+  box-shadow: 0em 0.5em 0.5em -0.25em rgba(0,0,0,0.25);
+  margin: 0 auto 0em auto;
+  margin-bottom: 0em;
+  margin-bottom: 2em;
+}
+.luau-content section ul li {
+  list-style-position: ;
+  list-style-type: disc;
+  list-style-position: outside;
+  font-size: 1em;
+  line-height: 2em;
+}
+.luau-content section ul li {
+  max-width: 25em;
+  margin: 0 auto;
+}
+.luau-content ul li span {
+  display: block;
+  font-size: 0.9em;
+}
+
+#luau-previews {
+  display: table;
+  margin: 0 auto;
+  max-width: 1400px;
+  background: #dbb57f;
+  box-shadow: 0em 1em 2em rgba(0,0,0,0.75);
+  width: 95%;
+  border-bottom: 2em solid #6b2600;
+}
+#luau-previews.reservation-page {
+	width: 100%;
+}
+.luau-preview {
+}
+
+.preview-learn-more {
+  color: #002e3e;
+  font-family: "Cinzel", sans-serif;
+  background: #fafafa;
+  padding: 1em 4em;
+  border-radius: 0.5em;
+  display: inline-block;
+  border: 0;
+  font-size: 1em;
+  margin-top: 1em;
+}
+/*=========*/
+
+#general-seating{
+  display: block;
+  width: 100%;
+  padding-top: 2em;
+}
+#general-seating ul{
+  display: block;
+  width: 80%;
+  max-width: 30em;
+  margin: 0 auto;
+}
+#general-seating ul li p{
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.luau-preview header {
+  text-transform: capitalize;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.luau-preview hr {
+  max-width: 13em;
+  margin: 1em auto;
+  border: 0;
+  height: 3px;
+}
+.package-schedule {
+  text-align: center;
+  margin-bottom: 1em;
+  text-transform: capitalize;
+}
+/* .luau-preview ul {
+  list-style-type: disc;
+  display: inline-block;
+  list-style-position: inside;
+  max-width: 16em;
+  margin: 0 auto;
+} */
+
+.luau-previews li {
+  display: block;
+}
+#luau-previews li {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+#luau-previews ul {
+  display: block;
+  max-width: 20em;
+  margin: 0 auto;
+}
+@media(max-width:850px){
+  #luau-previews ul{
+    max-width: 15em;
+  }
+}
+.package-price {
+  text-transform: capitalize;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: block;
+}
+.package-price span {
+  font-size: 1.5em;
+  text-align: left;
+  font-weight: bold;
+  font-family: "Cinzel";
+  color: #20304d;
+}
+.strikethrough{
+  opacity: 0.5;
+}
+#general-seating header {
+  color: #1c1d31;
+  font-weight: bold;
+  font-family: "Cinzel";
+}
+
+#vip-seating header {
+  color: #6d2700;
+  font-weight: bold;
+  font-family: "Cinzel";
+  padding-top: 1.5em;
+}
+
+#general-seating hr {
+  background: #1c1d3199;
+}
+#vip-seating hr {
+  background: #b23b00;
+}
+/* #vip-seating ul,
+#vip-seating p,
+#general-seating ul,
+#general-seating p {
+}
+#vip-seating ul li,
+#general-seating ul li{
+  list-style-type: disc !important;
+} */
+#vip-seating header b {
+  font-weight: bold;
+  font-size: 0.5em;
+}
+
+@media (max-width: 920px) {
+  .luau-preview {
+    width: 100%;
+    display: block;
+    /*! text-align: center; */
+    margin: 0 auto;
+  }
+#vip-seating,
+#general-seating{
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+#vip-seating{
+  background-image: url("../images/tapascenter-warm.png");
+    background-position: center;
+}
+#general-seating{
+  background-image: url("../images/tapascenter-warm.png");
+    background-position: center;
+}
+  #general-seating {
+    border-right: none;
+  }
+/*    #vip-seating ul,
+  #general-seating ul {
+    font-size: 1.15em;
+    max-width: 20em;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+  } */
+}
+
+.luau-preview b {
+  font-size: 1.5em;
+  color: darkred;
+}
+.package-price {
+  font-size: 1.2em;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+#book-packages {
+  padding: 2em;
+  text-align: center;
+}
+#book-packages a {
+  font-size: 1.5em;
+  color: #581f02;
+  font-family: "Cinzel", sans-serif;
+  background: #f9d365;
+  padding: 1em 4em;
+  border-radius: 0.5em;
+  display: inline-block;
+}
+
+@media(max-width:650px){
+  #luau-previews {
+    width: 100%;
+  }
+}
+@media (max-width: 1080px) {
+  .luau-preview {
+    position: relative;
+  }
+}
+@media (max-width: 920px) {
+  .luau-preview {
+    width: 100%;
+    display: block;
+    /*! text-align: center; */
+    margin: 0 auto;
+  }
+  #general-seating {
+    border-right: none;
+  }
+}
+/* @media(max-width:900px){
+  #vip-seating ul li p,
+  #general-seating li p{
+  }
+} */
+.luau-preview-button {
+color: whitesmoke;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5em;
+  font-size: 1.33em;
+  background: #20304D;
+  box-shadow: 0em 0em 0em tan;
+  border-radius: 1em;
+border: none;
+margin: 1em auto;
+display: block;
+}
+
+.reservation-button {
+  color: #1c1d31;
+  display: inline-block;
+  padding: 0.5em 2em;
+  font-weight: bold;
+  border: 0;
+  text-transform: capitalize;
+  border-radius: 3em;
+  background: #b7bb65;
+  cursor: pointer;
+  margin-top: 1em;
+}
+.seating-link {
+  color: #1c1d31;
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-transform: capitalize;
+  border-radius: 3em;
+  cursor: pointer;
+  vertical-align: bottom;
+  border: 0.1em solid;
+  font-size: 1.15em;
+}
+
+.reservation-button span:nth-child(1) {
+  font-family: "Cinzel", sans-serif;
+  font-size: 1.75em;
+  font-weight: lighter;
+  vertical-align: middle;
+}
+
+#luau-info p {
+  font-size: 1.15em;
+  line-height: 2em;
+  margin-bottom: 1em;
+}
+.strikethrough {
+  text-decoration: line-through;
+  font-size: 1em !important;
+  line-height: 1em;
+  color: rgba(0,0,0,0.5);
+}
+
+ #luau-details b {
+	width: 100%;
+	text-align: center;
+	display: block;
+	font-size: 1.25em;
+	color: #073b4c;
+	padding: 0.5em;
+	max-width: 10em;
+	margin: 0 auto;
+}
+
 /*========== reservation window ==========*/
 #reservation-window {
   width: 100%;

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Kona Luau</title>
+    <meta name="description"
+        content="The Royal Lahaina Luau on Maui takes place at an oceanfront location right on Kaanapali Beach at the Royal Lahaina Resort. Reserve your discounted tickets at RoyalLahainaLuau.com">
+    <meta name="Keywords"
+        content="royal lahaina luau, maui luau, royal lahaina luau maui, luau reservations, luau menu, lahaina luau, royal lahaina resort luau, kaanapali beach luau">
+    <link rel="canonical" href="https://www.royallahainaluau.com" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Cinzel:wght@500&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="js/ieexclude.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- ================================================= -->
+    <!-- ========== masthead ========== -->
+    <nav id="main-nav">
+
+        <ul>
+            <li class="nav-desktop">
+                <a href="/">home</a>
+                <a href="/reservations.htm">reservations</a>
+                <a href="/menu.htm">menu</a>
+                <a href="/about.htm">about</a>
+            </li>
+
+            <li id="logo">
+                <a href="/">
+                    Royal Kona
+                    <hr>
+                    <span>lu'au</span>
+
+                </a>
+            </li>
+            <li class="nav-desktop">
+                <a href="/FAQ.htm">faq</a>
+                <a href="/blog.htm">blog</a>
+                <a href="/contact.htm">contact</a>
+                <a href="/Cart/Edit#viewitems">cart</a>
+            </li>
+        </ul>
+        <a href="tel:+18086722520" id="desktop-phone"><span
+                class="material-symbols-outlined">call</span>1-808-672-2520</a>
+
+        <div class="mobile-phone">
+            <a href="tel:+18086722520" id="phone-mobile"><span class="material-symbols-outlined">call</span></a>
+        </div>
+        <div class="mobile-button">
+            <button class="menu-btn" id="menu-btn" name="button"
+                onclick="idToggle('menu-btn','active');idToggle('mobile-nav','active')" type="button">
+                <hr class="menu-btn-hr-1">
+                <hr class="menu-btn-hr-2">
+                <hr class="menu-btn-hr-3">
+            </button>
+        </div>
+    </nav>
+    <img src="images/palm_img.png" alt="" id="palm-left">
+    <img src="images/palm_img.png" alt="" id="palm-right">
+
+    <nav id="mobile-nav">
+        <a href="/">home</a>
+        <a href="/reservations.htm">reservations</a>
+        <a href="/menu.htm">menu</a>
+        <a href="/about.htm">about</a>
+        <a href="/FAQ.htm">faq</a>
+        <a href="/blog.htm">blog</a>
+        <a href="/contact.htm">contact</a>
+        <a href="/Cart/Edit#viewitems">cart</a>
+    </nav>
+
+    <a href="/reservations.htm" id="reserve-now">reserve now!</a>
+
+    <!-- ================================================= -->
+    <link href="css/reservations.css" rel="stylesheet" />
+
+    <!-- ================================================= -->
+
+
+    <div class="reservation-hero">
+        <img src="images/royal-kona-luau-voyagers-of-the-pacific.jpg" alt="">
+        <header>
+            <h1>Reservations</h1>
+            <hr>
+            <h2>Voyagers of the Pacific</h2>
+            <button type="button" class="browse-luaus" id="browse-luaus">
+                <span>book now</span>
+                <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+        </header>
+    </div>
+
+    <button id="book-now-btn" type="button">book now</button>
+    <!-- =============================================================== -->
+    <div id="about-luau" class="luau-content">
+
+
+        <div class="luau-preview" id="general-seating">
+            <header>Luau Highlights</header>
+            <hr />
+            <ul>
+                <li>
+                    <p>&#x2022;Hawaiian lei greeting welcome</p>
+                </li>
+                <li>
+                    <p>&#x2022;Island arts & crafts presentations and hula lessons</p>
+                </li>
+                <li>
+                    <p>&#x2022;Delicious Hawaiian luau dinner with island fare and local specialties</p>
+                </li>
+                <li>
+                    <p>&#x2022;Spectacular Polynesian show telling the story of the grand ocean voyage of the ancient
+                        Polynesians</p>
+                </li>
+                <li>
+                    <p>&#x2022;Breathtaking Samoan Siva Afi fire dance finale</p>
+                </li>
+                <li>
+                    <p>&#x2022;Delicious all-you-care-to-eat Hawaiian Luau dinner</p>
+                </li>
+                <li>
+                    <p>&#x2022;Aloha welcome</p>
+                </li>
+                <li>
+                    <p>&#x2022;Photo opportunities</p>
+                </li>
+            </ul>
+            <p class="package-price">
+                from<br /><span>$170.49</span><br />
+                <span class="strikethrough">$177.59</span>
+            </p>
+            <button type="button" class="luau-preview-button" id="general-reservation">
+                Book Now
+            </button>
+        </div>
+
+        <section>
+            <article>
+                <p>Held oceanfront at the Royal Kona Resort, the Royal Kona Luau – Voyagers of the Pacific – invites you to a magical evening under the stars celebrating Hawaiian culture. Watch traditional island arts & crafts presentations, live musical entertainment and exotic dances. Enjoy a culinary feast that’s fit for royalty as you indulge in a wide variety of delicacies. The final highlight of the evening is the spectacular Polynesian show featuring music and dances from the Hawaiian Islands as well as Tahiti, Samoa and Aotearoa (New Zealand).<p>
+            </article>
+        </section>
+
+        <div id="luau-gallery">
+            <a href="" class="gallery-image"></a>
+            <a href="" class="gallery-image"></a>
+            <a href="" class="gallery-image"></a>
+            <a href="" class="gallery-image"></a>
+            <a href="" class="gallery-image"></a>
+            <a href="" class="gallery-image"></a>
+            <a href="" class="gallery-image"></a>
+            <a href="" class="gallery-image"></a>
+        </div>
+
+        <!-- =============================================================== -->
+
+        <div id="luau-details">
+            <h3>Luau Menu</h3>
+            <section>
+            <b>Assorted Salads & Things:</b>
+            <ul>
+                <li>Mixed Green Salad (Vegan)</li>
+                <li>Choice of Dressings: 1000, Ranch, Lilikoi-Papaya Seed (GF)</li>
+                <li>Local Pineapple (Vegan)</li>
+                <li>Sweet Potato-Macaroni Salad (Contains Gluten & Egg, Dairy Free)</li>
+                <li>Waipio Valley Poi (GF, Dairy Free, Vegan)</li>
+                <li>Coconut Rolls (Contains Dairy & Gluten)</li>
+            </ul>
+            <b>Hot Entrées:</b>
+            <ul>
+                <li>Steamed Rice (GF, Dairy Free, Vegan)</li>
+                <li>Kalua Style Pork & Cabbage (GF)</li>
+                <li>Teriyaki Beef (GF, Contains GF Soy Sauce)</li>
+                <li>Local Caught Fish (GF, Contains GF Soy Sauce)</li>
+                <li>Stir Fry Vegetables (GF, Dairy Free, Vegan)</li>
+            </ul>
+            <b>Desserts:</b>
+            <ul>
+                <li>Hawaiian Haupia Pudding (GF, Not Dairy Free)</li>
+                <li>Coconut Cake I Mai Tai Caramel (Contains Gluten & Dairy)</li>
+                <li>Fresh Puna Papaya (Vegan)</li>
+            </ul>
+            </section>
+        </div>
+        <!-- =============================================================== -->
+
+        <div id="about-details">
+
+            <h3>Luau Time:</h3>
+            <section>
+                <article>
+                    <b>Where and When:</b>
+                    <p>Check-in is at 4:45 pm.
+                        Royal Kona Resort - Luau Gardens, Kailua-Kona, West Hawaii
+                        View Map</p>
+                    <b>Special Notes:</b>
+                    <p>Infant pricing (children 5 and under) are provided their own seat and plate.
+                        Parking Validation is $5.00 and covers 3 hours. Additional time is the responsibility of the
+                        guest.</p>
+                    <b>Operation Days:</b>
+                    <p>Monday, Tuesday, Wednesday and Friday</p>
+                    <b>Duration:</b>
+                    <p>Approximately 3 hours</p>
+                    <b>Restrictions:</b>
+                    <p>There are no specific restrictions for this activity.</p>
+                </article>
+            </section>
+
+        </div>
+
+    </div>
+
+    <!-- ========== reservations ========== -->
+
+    <form action="/products/details/1" method="post">
+        <input type="hidden" name="cart" value="True" />
+        <input type="hidden" name="updateProductOrder" value="Update" />
+        <div id="reservation-window"></div>
+    </form>
+
+    <!-- ================================== -->
+
+    <script>
+        const emailName = '';
+        const emailPhone = '';
+    </script>
+
+    <script>
+        let cartData = { "ProductID": 6, "ProductKey": "262", "ProductTitle": "Royal Kona Luau - Royal Kona Resort", "ProductOrderKey": "262", "Prices": [{ "ID": 114, "ControlName": "price_262_114", "Key": "2382", "Description": "Per Infant (0-5 yrs)", "Limit": -1, "Quantity": 0, "ListPrice": 0.00, "Saleprice": 0.00, "DisplayOrder": 3, "Active": true, "Exempt": true, "Hidden": false, "Category": "Infant", "Grouping": null, "Availability": { "CollectorName": "Activity Date", "ReferenceControl": "ActivityDate_262", "ClosedDates": "[\"\"]", "Cutoff": "3:30 PM" } }, { "ID": 115, "ControlName": "price_262_115", "Key": "9549", "Description": "Per Adult (12 yrs+)", "Limit": -1, "Quantity": 0, "ListPrice": 177.59, "Saleprice": 170.49, "DisplayOrder": 1, "Active": true, "Exempt": false, "Hidden": false, "Category": "Adult", "Grouping": null, "Availability": { "CollectorName": "Activity Date", "ReferenceControl": "ActivityDate_262", "ClosedDates": "[\"\"]", "Cutoff": "3:30 PM" } }, { "ID": 116, "ControlName": "price_262_116", "Key": "9550", "Description": "Per Child (6-11 yrs)", "Limit": -1, "Quantity": 0, "ListPrice": 69.37, "Saleprice": 66.59, "DisplayOrder": 2, "Active": true, "Exempt": false, "Hidden": false, "Category": "Child", "Grouping": null, "Availability": { "CollectorName": "Activity Date", "ReferenceControl": "ActivityDate_262", "ClosedDates": "[\"\"]", "Cutoff": "3:30 PM" } }], "Availabilities": [{ "CollectorName": "Activity Date", "ReferenceControl": "ActivityDate_262", "ClosedDates": "[\"06/20/2024\",\"06/20/2024\",\"06/27/2024\",\"07/04/2024\",\"07/11/2024\",\"07/18/2024\",\"07/25/2024\",\"08/01/2024\",\"08/08/2024\",\"08/15/2024\",\"08/22/2024\",\"08/29/2024\",\"09/05/2024\",\"09/12/2024\",\"09/19/2024\",\"09/26/2024\",\"10/03/2024\",\"10/10/2024\",\"10/17/2024\",\"10/24/2024\",\"10/31/2024\",\"11/07/2024\",\"11/14/2024\",\"11/21/2024\",\"11/28/2024\",\"12/05/2024\",\"12/12/2024\",\"12/19/2024\",\"12/26/2024\",\"01/02/2025\",\"01/09/2025\",\"01/16/2025\",\"01/23/2025\",\"01/30/2025\",\"02/06/2025\",\"02/13/2025\",\"02/20/2025\",\"02/27/2025\",\"03/06/2025\",\"03/13/2025\",\"03/20/2025\",\"03/27/2025\",\"04/03/2025\",\"04/10/2025\",\"04/17/2025\",\"04/24/2025\",\"05/01/2025\",\"05/08/2025\",\"05/15/2025\",\"05/22/2025\",\"05/29/2025\",\"06/05/2025\",\"06/12/2025\",\"06/19/2025\",\"06/22/2024\",\"06/29/2024\",\"07/06/2024\",\"07/13/2024\",\"07/20/2024\",\"07/27/2024\",\"08/03/2024\",\"08/10/2024\",\"08/17/2024\",\"08/24/2024\",\"08/31/2024\",\"09/07/2024\",\"09/14/2024\",\"09/21/2024\",\"09/28/2024\",\"10/05/2024\",\"10/12/2024\",\"10/19/2024\",\"10/26/2024\",\"11/02/2024\",\"11/09/2024\",\"11/16/2024\",\"11/23/2024\",\"11/30/2024\",\"12/07/2024\",\"12/14/2024\",\"12/21/2024\",\"12/28/2024\",\"01/04/2025\",\"01/11/2025\",\"01/18/2025\",\"01/25/2025\",\"02/01/2025\",\"02/08/2025\",\"02/15/2025\",\"02/22/2025\",\"03/01/2025\",\"03/08/2025\",\"03/15/2025\",\"03/22/2025\",\"03/29/2025\",\"04/05/2025\",\"04/12/2025\",\"04/19/2025\",\"04/26/2025\",\"05/03/2025\",\"05/10/2025\",\"05/17/2025\",\"05/24/2025\",\"05/31/2025\",\"06/07/2025\",\"06/14/2025\",\"06/23/2024\",\"06/30/2024\",\"07/07/2024\",\"07/14/2024\",\"07/21/2024\",\"07/28/2024\",\"08/04/2024\",\"08/11/2024\",\"08/18/2024\",\"08/25/2024\",\"09/01/2024\",\"09/08/2024\",\"09/15/2024\",\"09/22/2024\",\"09/29/2024\",\"10/06/2024\",\"10/13/2024\",\"10/20/2024\",\"10/27/2024\",\"11/03/2024\",\"11/10/2024\",\"11/17/2024\",\"11/24/2024\",\"12/01/2024\",\"12/08/2024\",\"12/15/2024\",\"12/22/2024\",\"12/29/2024\",\"01/05/2025\",\"01/12/2025\",\"01/19/2025\",\"01/26/2025\",\"02/02/2025\",\"02/09/2025\",\"02/16/2025\",\"02/23/2025\",\"03/02/2025\",\"03/09/2025\",\"03/16/2025\",\"03/23/2025\",\"03/30/2025\",\"04/06/2025\",\"04/13/2025\",\"04/20/2025\",\"04/27/2025\",\"05/04/2025\",\"05/11/2025\",\"05/18/2025\",\"05/25/2025\",\"06/01/2025\",\"06/08/2025\",\"06/15/2025\",\"06/21/2024\",\"01/01/2025\",\"01/02/2025\",\"01/03/2025\",\"01/04/2025\",\"01/05/2025\",\"01/06/2025\",\"01/07/2025\",\"01/08/2025\",\"01/09/2025\",\"01/10/2025\",\"01/11/2025\",\"01/12/2025\",\"01/13/2025\",\"01/14/2025\",\"01/15/2025\",\"01/16/2025\",\"01/17/2025\",\"01/18/2025\",\"01/19/2025\",\"01/20/2025\",\"01/21/2025\",\"01/22/2025\",\"01/23/2025\",\"01/24/2025\",\"01/25/2025\",\"01/26/2025\",\"01/27/2025\",\"01/28/2025\",\"01/29/2025\",\"01/30/2025\",\"01/31/2025\",\"02/01/2025\",\"02/02/2025\",\"02/03/2025\",\"02/04/2025\",\"02/05/2025\",\"02/06/2025\",\"02/07/2025\",\"02/08/2025\",\"02/09/2025\",\"02/10/2025\",\"02/11/2025\",\"02/12/2025\",\"02/13/2025\",\"02/14/2025\",\"02/15/2025\",\"02/16/2025\",\"02/17/2025\",\"02/18/2025\",\"02/19/2025\",\"02/20/2025\",\"02/21/2025\",\"02/22/2025\",\"02/23/2025\",\"02/24/2025\",\"02/25/2025\",\"02/26/2025\",\"02/27/2025\",\"02/28/2025\",\"03/01/2025\",\"03/02/2025\",\"03/03/2025\",\"03/04/2025\",\"03/05/2025\",\"03/06/2025\",\"03/07/2025\",\"03/08/2025\",\"03/09/2025\",\"03/10/2025\",\"03/11/2025\",\"03/12/2025\",\"03/13/2025\",\"03/14/2025\",\"03/15/2025\",\"03/16/2025\",\"03/17/2025\",\"03/18/2025\",\"03/19/2025\",\"03/20/2025\",\"03/21/2025\",\"03/22/2025\",\"03/23/2025\",\"03/24/2025\",\"03/25/2025\",\"03/26/2025\",\"03/27/2025\",\"03/28/2025\",\"03/29/2025\",\"03/30/2025\",\"03/31/2025\",\"04/01/2025\",\"04/02/2025\",\"04/03/2025\",\"04/04/2025\",\"04/05/2025\",\"04/06/2025\",\"04/07/2025\",\"04/08/2025\",\"04/09/2025\",\"04/10/2025\",\"04/11/2025\",\"04/12/2025\",\"04/13/2025\",\"04/14/2025\",\"04/15/2025\",\"04/16/2025\",\"04/17/2025\",\"04/18/2025\",\"04/19/2025\",\"04/20/2025\",\"04/21/2025\",\"04/22/2025\",\"04/23/2025\",\"04/24/2025\",\"04/25/2025\",\"04/26/2025\",\"04/27/2025\",\"04/28/2025\",\"04/29/2025\",\"04/30/2025\",\"05/01/2025\",\"05/02/2025\",\"05/03/2025\",\"05/04/2025\",\"05/05/2025\",\"05/06/2025\",\"05/07/2025\",\"05/08/2025\",\"05/09/2025\",\"05/10/2025\",\"05/11/2025\",\"05/12/2025\",\"05/13/2025\",\"05/14/2025\",\"05/15/2025\",\"05/16/2025\",\"05/17/2025\",\"05/18/2025\",\"05/19/2025\",\"05/20/2025\",\"05/21/2025\",\"05/22/2025\",\"05/23/2025\",\"05/24/2025\",\"05/25/2025\",\"05/26/2025\",\"05/27/2025\",\"05/28/2025\",\"05/29/2025\",\"05/30/2025\",\"05/31/2025\",\"06/01/2025\",\"06/02/2025\",\"06/03/2025\",\"06/04/2025\",\"06/05/2025\",\"06/06/2025\",\"06/07/2025\",\"06/08/2025\",\"06/09/2025\",\"06/10/2025\",\"06/11/2025\",\"06/12/2025\",\"06/13/2025\",\"06/14/2025\",\"06/15/2025\",\"06/16/2025\",\"06/17/2025\",\"06/18/2025\",\"06/19/2025\",\"06/20/2025\",\"06/21/2025\",\"06/22/2025\",\"06/23/2025\",\"06/24/2025\",\"06/25/2025\",\"06/26/2025\",\"06/27/2025\",\"06/28/2025\",\"06/29/2025\",\"06/30/2025\",\"07/01/2025\",\"07/02/2025\",\"07/03/2025\",\"07/04/2025\",\"07/05/2025\",\"07/06/2025\",\"07/07/2025\",\"07/08/2025\",\"07/09/2025\",\"07/10/2025\",\"07/11/2025\",\"07/12/2025\",\"07/13/2025\",\"07/14/2025\",\"07/15/2025\",\"07/16/2025\",\"07/17/2025\",\"07/18/2025\",\"07/19/2025\",\"07/20/2025\",\"07/21/2025\",\"07/22/2025\",\"07/23/2025\",\"07/24/2025\",\"07/25/2025\",\"07/26/2025\",\"07/27/2025\",\"07/28/2025\",\"07/29/2025\",\"07/30/2025\",\"07/31/2025\",\"08/01/2025\",\"08/02/2025\",\"08/03/2025\",\"08/04/2025\",\"08/05/2025\",\"08/06/2025\",\"08/07/2025\",\"08/08/2025\",\"08/09/2025\",\"08/10/2025\",\"08/11/2025\",\"08/12/2025\",\"08/13/2025\",\"08/14/2025\",\"08/15/2025\",\"08/16/2025\",\"08/17/2025\",\"08/18/2025\",\"08/19/2025\",\"08/20/2025\",\"08/21/2025\",\"08/22/2025\",\"08/23/2025\",\"08/24/2025\",\"08/25/2025\",\"08/26/2025\",\"08/27/2025\",\"08/28/2025\",\"08/29/2025\",\"08/30/2025\",\"08/31/2025\",\"09/01/2025\",\"09/02/2025\",\"09/03/2025\",\"09/04/2025\",\"09/05/2025\",\"09/06/2025\",\"09/07/2025\",\"09/08/2025\",\"09/09/2025\",\"09/10/2025\",\"09/11/2025\",\"09/12/2025\",\"09/13/2025\",\"09/14/2025\",\"09/15/2025\",\"09/16/2025\",\"09/17/2025\",\"09/18/2025\",\"09/19/2025\",\"09/20/2025\",\"09/21/2025\",\"09/22/2025\",\"09/23/2025\",\"09/24/2025\",\"09/25/2025\",\"09/26/2025\",\"09/27/2025\",\"09/28/2025\",\"09/29/2025\",\"09/30/2025\",\"10/01/2025\",\"10/02/2025\",\"10/03/2025\",\"10/04/2025\",\"10/05/2025\",\"10/06/2025\",\"10/07/2025\",\"10/08/2025\",\"10/09/2025\",\"10/10/2025\",\"10/11/2025\",\"10/12/2025\",\"10/13/2025\",\"10/14/2025\",\"10/15/2025\",\"10/16/2025\",\"10/17/2025\",\"10/18/2025\",\"10/19/2025\",\"10/20/2025\",\"10/21/2025\",\"10/22/2025\",\"10/23/2025\",\"10/24/2025\",\"10/25/2025\",\"10/26/2025\",\"10/27/2025\",\"10/28/2025\",\"10/29/2025\",\"10/30/2025\",\"10/31/2025\",\"11/01/2025\",\"11/02/2025\",\"11/03/2025\",\"11/04/2025\",\"11/05/2025\",\"11/06/2025\",\"11/07/2025\",\"11/08/2025\",\"11/09/2025\",\"11/10/2025\",\"11/11/2025\",\"11/12/2025\",\"11/13/2025\",\"11/14/2025\",\"11/15/2025\",\"11/16/2025\",\"11/17/2025\",\"11/18/2025\",\"11/19/2025\",\"11/20/2025\",\"11/21/2025\",\"11/22/2025\",\"11/23/2025\",\"11/24/2025\",\"11/25/2025\",\"11/26/2025\",\"11/27/2025\",\"11/28/2025\",\"11/29/2025\",\"11/30/2025\",\"12/01/2025\",\"12/02/2025\",\"12/03/2025\",\"12/04/2025\",\"12/05/2025\",\"12/06/2025\",\"12/07/2025\",\"12/08/2025\",\"12/09/2025\",\"12/10/2025\",\"12/11/2025\",\"12/12/2025\",\"12/13/2025\",\"12/14/2025\",\"12/15/2025\",\"12/16/2025\",\"12/17/2025\",\"12/18/2025\",\"12/19/2025\",\"12/20/2025\",\"12/21/2025\",\"12/22/2025\",\"12/23/2025\",\"12/24/2025\",\"12/25/2025\",\"12/26/2025\",\"12/27/2025\",\"12/28/2025\",\"12/29/2025\",\"12/30/2025\",\"12/31/2025\"]", "Cutoff": "3:30 PM" }], "Collectors": [{ "ID": 0, "ControlName": "ActivityDate_262", "ApplicationDataType": 2, "ListMember": null, "Name": "Activity Date", "DisplayOrder": 0, "DisplayAlias": null, "Value": null, "Required": false }, { "ID": 0, "ControlName": "ParticipantNamesandAges_262", "ApplicationDataType": 0, "ListMember": null, "Name": "Participant Names and Ages", "DisplayOrder": 0, "DisplayAlias": "Party Name", "Value": null, "Required": false }, { "ID": 0, "ControlName": "SelectYourBigIslandHotel_262", "ApplicationDataType": 7, "ListMember": { "ID": 73, "ControlName": null, "Shortcode": "Select Your Big Island Hotel", "Code": "Select Your Big Island Hotel", "Selected": false, "Value": "", "ListMembers": [{ "ID": 454, "ControlName": null, "Shortcode": "-- Select --", "Code": "-- Select --", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 455, "ControlName": null, "Shortcode": "Adriennes Bed & Brek", "Code": "Adriennes Bed & Brek", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 456, "ControlName": null, "Shortcode": "Aston Kona By The Sea", "Code": "Aston Kona By The Sea", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 457, "ControlName": null, "Shortcode": "Bamboo Orchid B& B", "Code": "Bamboo Orchid B& B", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 458, "ControlName": null, "Shortcode": "Casa De Emdeko", "Code": "Casa De Emdeko", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 459, "ControlName": null, "Shortcode": "Castle Kona Reef", "Code": "Castle Kona Reef", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 460, "ControlName": null, "Shortcode": "Cruise Ship - Hilo", "Code": "Cruise Ship - Hilo", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 461, "ControlName": null, "Shortcode": "Cruise Ship - Kona", "Code": "Cruise Ship - Kona", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 462, "ControlName": null, "Shortcode": "Dolphin Bay Hotel", "Code": "Dolphin Bay Hotel", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 463, "ControlName": null, "Shortcode": "Fairfield At Kona Hawaiian Village", "Code": "Fairfield At Kona Hawaiian Village", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 464, "ControlName": null, "Shortcode": "Fairmont Orchid", "Code": "Fairmont Orchid", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 465, "ControlName": null, "Shortcode": "Hale Kona Kai", "Code": "Hale Kona Kai", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 466, "ControlName": null, "Shortcode": "Hilo Bay Hostel", "Code": "Hilo Bay Hostel", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 467, "ControlName": null, "Shortcode": "Hilo Bay Hotel", "Code": "Hilo Bay Hotel", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 468, "ControlName": null, "Shortcode": "Hilo Hawaiian", "Code": "Hilo Hawaiian", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 469, "ControlName": null, "Shortcode": "Hilo Seaside", "Code": "Hilo Seaside", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 470, "ControlName": null, "Shortcode": "Hilton Waikoloa", "Code": "Hilton Waikoloa", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 471, "ControlName": null, "Shortcode": "Holiday Inn Express & Suites Kailua-Kona", "Code": "Holiday Inn Express & Suites Kailua-Kona", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 472, "ControlName": null, "Shortcode": "Holua Resort at Mauna Loa Village", "Code": "Holua Resort at Mauna Loa Village", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 473, "ControlName": null, "Shortcode": "Inn At Kulaniapia Falls", "Code": "Inn At Kulaniapia Falls", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 474, "ControlName": null, "Shortcode": "Kahaluu Bay Villas", "Code": "Kahaluu Bay Villas", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 475, "ControlName": null, "Shortcode": "Kanaloa At Kona", "Code": "Kanaloa At Kona", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 476, "ControlName": null, "Shortcode": "Keauhou Resort Condo", "Code": "Keauhou Resort Condo", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 477, "ControlName": null, "Shortcode": "King Kamehameha Kona Beach Hotel", "Code": "King Kamehameha Kona Beach Hotel", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 478, "ControlName": null, "Shortcode": "Kings Land by Hilton Grand Vacation", "Code": "Kings Land by Hilton Grand Vacation", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 479, "ControlName": null, "Shortcode": "Kings' Land by Hilton Grand Vacation", "Code": "Kings' Land by Hilton Grand Vacation", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 480, "ControlName": null, "Shortcode": "Kona Alii Condominium", "Code": "Kona Alii Condominium", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 481, "ControlName": null, "Shortcode": "Kona Bay Hotel (Uncle Billy's)", "Code": "Kona Bay Hotel (Uncle Billy's)", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 482, "ControlName": null, "Shortcode": "Kona Billfisher", "Code": "Kona Billfisher", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 483, "ControlName": null, "Shortcode": "Kona Coast Resort", "Code": "Kona Coast Resort", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 484, "ControlName": null, "Shortcode": "Kona Islander Inn & Hotel", "Code": "Kona Islander Inn & Hotel", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 485, "ControlName": null, "Shortcode": "Kona Isle Condominium", "Code": "Kona Isle Condominium", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 486, "ControlName": null, "Shortcode": "Kona Makai", "Code": "Kona Makai", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 487, "ControlName": null, "Shortcode": "Kona Sea Village Hotel", "Code": "Kona Sea Village Hotel", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 488, "ControlName": null, "Shortcode": "Kona Seaside", "Code": "Kona Seaside", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 489, "ControlName": null, "Shortcode": "Kona White Sands", "Code": "Kona White Sands", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 490, "ControlName": null, "Shortcode": "Manago Hotel", "Code": "Manago Hotel", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 491, "ControlName": null, "Shortcode": "Marriott Waikoloa", "Code": "Marriott Waikoloa", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 492, "ControlName": null, "Shortcode": "Mauna Kea Beach Hotel", "Code": "Mauna Kea Beach Hotel", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 493, "ControlName": null, "Shortcode": "Mauna Kea Fairways", "Code": "Mauna Kea Fairways", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 494, "ControlName": null, "Shortcode": "Mauna Lani Beach and Bungalows", "Code": "Mauna Lani Beach and Bungalows", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 495, "ControlName": null, "Shortcode": "Mauna Lani Terrace", "Code": "Mauna Lani Terrace", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 496, "ControlName": null, "Shortcode": "Naniloa Volcanoes Resort", "Code": "Naniloa Volcanoes Resort", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 497, "ControlName": null, "Shortcode": "Nomura Village", "Code": "Nomura Village", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 498, "ControlName": null, "Shortcode": "Other", "Code": "Other", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 499, "ControlName": null, "Shortcode": "Outrigger Fairway Villas", "Code": "Outrigger Fairway Villas", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 500, "ControlName": null, "Shortcode": "Outrigger Kona Resort and Spa", "Code": "Outrigger Kona Resort and Spa", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 501, "ControlName": null, "Shortcode": "Paniolo Greens Resort", "Code": "Paniolo Greens Resort", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 502, "ControlName": null, "Shortcode": "Pineapple Park Hostel", "Code": "Pineapple Park Hostel", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 503, "ControlName": null, "Shortcode": "Royal Aloha Vacation Club (Keauhou)", "Code": "Royal Aloha Vacation Club (Keauhou)", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 504, "ControlName": null, "Shortcode": "Royal Kahili", "Code": "Royal Kahili", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 505, "ControlName": null, "Shortcode": "Royal Kona Resort", "Code": "Royal Kona Resort", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 506, "ControlName": null, "Shortcode": "Royal Sea Cliff (Outrigger)", "Code": "Royal Sea Cliff (Outrigger)", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 507, "ControlName": null, "Shortcode": "Sheraton Kona Resort & Spa at Keauhou Bay", "Code": "Sheraton Kona Resort & Spa at Keauhou Bay", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 508, "ControlName": null, "Shortcode": "Uncle Billys Hilo Bay", "Code": "Uncle Billys Hilo Bay", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 509, "ControlName": null, "Shortcode": "Waikoloa Beach Resort", "Code": "Waikoloa Beach Resort", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 510, "ControlName": null, "Shortcode": "Waikoloa Shores", "Code": "Waikoloa Shores", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 511, "ControlName": null, "Shortcode": "Westin Hapuna Beach Resort", "Code": "Westin Hapuna Beach Resort", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 512, "ControlName": null, "Shortcode": "White Sands Hotel - Kona", "Code": "White Sands Hotel - Kona", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 513, "ControlName": null, "Shortcode": "Wild Ginger Inn", "Code": "Wild Ginger Inn", "Selected": false, "Value": "", "ListMembers": [] }, { "ID": 514, "ControlName": null, "Shortcode": "Wyndham Kona Hawaiian Resort", "Code": "Wyndham Kona Hawaiian Resort", "Selected": false, "Value": "", "ListMembers": [] }] }, "Name": "Select Your Big Island Hotel", "DisplayOrder": 0, "DisplayAlias": null, "Value": null, "Required": false }, { "ID": 0, "ControlName": "Specialmealrequest-exvegetarian,allergies,e_262", "ApplicationDataType": 9, "ListMember": null, "Name": "Special meal request - ex vegetarian, allergies, e", "DisplayOrder": 0, "DisplayAlias": null, "Value": null, "Required": false }], "Schedules": [], "Groupings": [], "Customer": { "Email": "", "MobilePhone": "" } };
+    </script>
+    <script src="js/momentJS/moment.js"></script>
+    <script src="js/momentJS/moment-timezone.js"></script>
+    <script src="js/reservation-template.js"></script>
+    <script src="js/reservation-config.js"></script>
+    <script src="js/reservation-ui.js"></script>
+
+    <!-- ======================= -->
+    <div id="why-book-with">
+        <h3>why book <br /> with us?</h3>
+        <ul>
+            <li>
+                <div class="booking-details">
+                    <div class="booking-img-container">
+                        <img src="images/guarantee-icons.png" alt="" style="left:0;top:0;">
+                    </div>
+                    <header>Secure Shopping</header>
+                    <p>Safe, secure online booking system with validated privacy protection.</p>
+                </div>
+            </li>
+            <li>
+                <div class="booking-details">
+                    <div class="booking-img-container">
+                        <img src="images/guarantee-icons.png" alt="" style="left:-11em;top:0;">
+                    </div>
+                    <header>Advance Booking<br />Satisfaction</header>
+                    <p>Avoid sellouts and price increases. Relax knowing your luau tickets are reserved and guaranteed.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="booking-details">
+                    <div class="booking-img-container">
+                        <img src="images/guarantee-icons.png" alt="" style="left:-16.5em;top:0;">
+                    </div>
+                    <header>Friendly Support</header>
+                    <p>Our staff will answer any questions you may have and ensure 100% satisfaction.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- ======================= -->
+
+    <footer>
+        <ul id="first-footer-row">
+            <li id="logo">
+                <a href="/">Royal Kona
+                    <hr><span>lu'au</span>
+                </a>
+            </li>
+        </ul>
+        <ul id="second-footer-row">
+            <li>
+                <div id="footer-phone">
+                    <a href="tel:+18086722520">
+                        <span class="material-symbols-outlined">call</span>
+                        <p>1-808-672-2520</p>
+                    </a>
+                </div>
+                <div id="footer-map">
+                    <a href="https://maps.app.goo.gl/bsAFSfJS8TFoCj3E8">
+                        <span class="material-symbols-outlined">location_on</span>
+                        <p><b>Royal Lahaina Resort</b><br>2780 Kekaa Drive,<br>Lahaina, HI 96761</p>
+                    </a>
+                </div>
+                <div id="social-icons">
+                    <a href=""><img src="images/twitter.svg" alt=""></a>
+                    <a href=""><img src="images/facebook.svg" alt=""></a>
+                    <a href=""><img src="images/instagram.svg" alt=""></a>
+                    <a href=""><img src="images/youtube.svg" alt=""></a>
+                </div>
+            </li>
+            <li>
+                <a href="/">home</a>
+                <a href="/reservations.htm">reservations</a>
+                <a href="/about.htm">about</a>
+                <a href="/menu.htm">menu</a>
+                <a href="/location.htm">location</a>
+                <a href="/Cart/Edit#viewitems">cart</a>
+            </li>
+            <li>
+                <a href="/faq.htm">faq</a>
+                <a href="/sitemap.htm">sitemap</a>
+                <a href="/terms.htm">terms</a>
+                <a href="/contact.htm">contact</a>
+                <a href="/account/login" rel="nofollow">login</a>
+            </li>
+        </ul>
+    </footer>
+
+    </main>
+    <!-- ================================================= -->
+    <script src="js/toggle.js" type="text/javascript"></script>
+</body>
+
+</html>
